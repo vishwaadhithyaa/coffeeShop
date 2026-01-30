@@ -1,0 +1,96 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+/* .navBar {
+  background-color: #467386;
+  padding: 3rem 0rem;
+} */
+
+/* Step3: componentContainer */
+/* .navBarContainer {
+  background-color: #649db1;
+  max-width: 1200px;
+  Device Screen Size
+  margin: auto;
+  Left and right Center
+} */
+
+/* Step4: row */
+/* .navBarBody {
+  background-color: #000000;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2.5rem 0rem;
+  
+} */
+
+/* Step5: column1 */
+/* .navBarBlock {
+  background-color: #48defc;
+} */
+
+/* Step6: subColumn */
+/* .navBox figure {
+  background-color: gold
+} */
+
+/* Step7: contentContainer */
+/* .navBox figure img {
+  background-color: #c8ff00;
+  width: auto;
+  height: 4.9rem;
+  padding: 0rem 6rem;
+  margin-left: 6.5rem;
+} */
+
+/* Step5: column2 */
+/* .navBarBlockOne {
+  
+  display: flex;
+  align-items: center;
+  margin-left: 6rem;
+} */
+
+/* Step6: subColumn */
+/* .navBoxOne {
+  background-color: #e70f0f;
+ 
+} */
+
+/* Step7: contentContainer */
+/* .navBoxOne ul {
+   background-color: #f2f5f5; 
+  display: flex;
+} */
+
+/* .navBoxOne ul li {
+  background-color: #0d1f1c;
+} */
+
+/* .navBoxOne ul li a {
+  margin-left: 2rem;
+  background-color: #0eb8ce;
+  font-family: var(--ffPrimary);
+  color: var(--darkColor);
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.1rem;
+}
+.navBoxOne ul li a:hover{
+  color: #212529;
+} */

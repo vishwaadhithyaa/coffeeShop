@@ -1,0 +1,107 @@
+/* 2.component */
+/* .contactIcons {
+    background-color: bisque;
+} */
+
+/* 3.component container */
+/* .contactIconsContainer {
+    max-width: 1100px;
+    margin: auto;
+} */
+
+/* 4.row */
+/* .contactIconsBody {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+} */
+/* 5.column */
+ /* .contactIconsBlock {
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+
+} */
+
+/* 6.subcolumn */
+ /* .contactIconsBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 4rem 0rem;
+  
+ } */
+
+/* 7.content container */
+/* .contactIconsBox i {
+    background-color: #be9c79;
+    color: white;
+    font-size: 4rem;
+    width: 6.5rem;
+    height: 6.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: 3rem;
+} */
+
+/* .contactIconsBox p {
+    color: #212529;
+    font-family: var(--ffPrimary);
+    font-size: 2rem;
+    font-weight: 400;
+    
+} */
+/* .contactIconsBox h4 { 
+    color: #212529;
+    font-family: var(--ffPrimary);
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+} */
+/* 5.column */
+/* .contactIconsBlockOne {
+    /* background-color: chartreuse; */
+    /* display: flex;
+    justify-content: center; */
+
+
+
+
+/* 4.row */
+/* .contactIconsBodyOne {
+    background-color: darkkhaki;
+} */
+
+/* 5.column */
+/* .contactIconsBlockFour {
+    background-color: peachpuff;
+} */
+
+/* 6.subcolumn */
+/* .contactIconsBoxFour {
+    background-color: blueviolet;
+} */
+
+/* 7.content container */
+
+
+/* .poe {
+    color: #be9c79;
+} */
+
+/* .contactIconsBoxFour p{
+     color: #212529;
+     text-align: center;
+     font-family: var(--ffPrimary);
+     font-size: 2rem;
+     font-weight: 400 ;
+     border-top: 2px solid ;
+     padding-top: 2rem;
+}
+span{
+    color: var(--primaryColor);
+} */

@@ -1,0 +1,770 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  text-wrap: pretty;
+  /* border: 1px solid red; */
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffffff;
+  /* font-family: "Merienda", serif; */
+  font-family: "Nunito Sans", serif;
+  color: #666666;
+  font-size: 1.6rem;
+  font-weight: 300;
+  /* line-height: 1.5;
+  letter-spacing: 0.1rem; */
+  /* -webkit-font-smoothing: antialiased; */
+  /* font-optical-sizing: auto; */
+}
+
+:root {
+  --primaryColor: #be9c79;
+  --secondaryColor: #666666;
+  --darkColor: #343A40;
+  --lightColor: #ffffff;
+  --regularFont: 1.6rem;
+  --headingFont: 2.5rem;
+  --ffPrimary: "Nunito", sans-serif;
+  --ffSecondary: "Merienda", cursive;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+p {
+  text-wrap: balance;
+}
+
+input,
+textarea,
+button {
+  font-family: inherit;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* :::::SCROLL BAR CODE S T A R T S::::: */
+
+/* Width and height of the scrollbar */
+::-webkit-scrollbar {
+  width: 1.5rem;
+  /* Vertical scrollbar */
+  height: 10px;
+  /* Horizontal scrollbar */
+}
+
+/* Track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background: #e3e4e6;
+  border-radius: 5px;
+}
+
+/* Scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #cececf;
+  /* border-radius: 5px; */
+}
+
+/* On hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b9b9ba;
+}
+
+/* :::::SCROLL BAR CODE E N D S::::: */
+
+/* :::PARENT CONTAINER Code Starts here::: */
+
+header {
+  /* background-color: #13c6bd; */
+  width: 100%;
+  /* Full Screensize */
+  height: auto;
+  /* content Height */
+}
+
+main {
+  /* background-color: #ffbf00; */
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  /* background-color: #89f357; */
+  width: 100%;
+  height: auto;
+}
+
+/* :::PARENT CONTAINER Code Ends here::: */
+
+/* project standard classes Starts */
+
+.componentSpacing {
+  padding: 3rem 0rem;
+  /* Breathing Space Between Components */
+}
+
+.screenSize {
+  max-width: 1200px;
+  /* Device Screen Size */
+  margin: auto;
+  /* Left and right Center */
+}
+
+.screenSize-2 {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.grid-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.dflex {
+  display: flex;
+  /* without this wont work */
+  align-items: center;
+  /* top & bottom Alignment */
+  justify-content: center;
+  /* left & right Alignment */
+}
+
+.dflex-col {
+  display: flex;
+  flex-direction: column;
+  /* makes top to bottom align */
+  align-items: center;
+  /* Behaves like a justify-content */
+  justify-content: center;
+  /* Behaves like a align-items */
+  text-align: center;
+}
+
+.dflex-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  background-color: var(--primaryColor);
+  padding: 1rem 3rem;
+  color: var(--lightColor);
+  font-family: var(--ffPrimary);
+  font-size: 2rem;
+  font-weight: 400;
+  border: none;
+}
+
+button:hover {
+  background-color: #212529;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* .imageIcon {
+  width: auto;
+  height: 4rem;
+} */
+
+/* project standard classes Ends */
+
+/* :::HEADER Code Starts here::: */
+/* Navbar code */
+.navBarBody {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2.5rem 0rem;
+}
+
+.navBox figure img {
+  width: auto;
+  height: 4.9rem;
+  margin-left: 6.5rem;
+}
+
+.navBarBlockOne {
+
+  display: flex;
+  align-items: center;
+  margin-left: 6rem;
+}
+
+.navBoxOne ul {
+  display: flex;
+}
+
+.navBoxOne ul li a {
+  margin-left: 2rem;
+  /* background-color: #0eb8ce; */
+  font-family: var(--ffPrimary);
+  color: var(--darkColor);
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.navBoxOne ul li a:hover {
+  color: #212529;
+}
+
+.hamburgerIcon{
+  display: none;
+}
+
+#iconToggle{
+  display: none;
+}
+
+/* Navbar code */
+
+/* Hero Section code */
+.heroSection {
+  background: linear-gradient(90deg, white, transparent 70%), url(./assets/images/bakgrImage.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25rem 0rem;
+}
+
+.heroSectionContainer {
+  max-width: 1500px;
+  margin: auto;
+}
+
+.heroSectionBlock {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.heroSectionBox {
+  width: 50%;
+}
+
+.heroSectionBox h1 {
+  color: #212529;
+  font-family: var(--ffSecondary);
+  font-size: 7rem;
+  font-weight: 900;
+}
+
+.heroSectionBox p {
+  font-family: var(--ffPrimary);
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #212529;
+  padding-bottom: 2rem;
+}
+
+/* Hero Section code */
+/* :::HEADER Code Ends here::: */
+
+/* :::MAIN Code Starts here::: */
+/* Our Menu code */
+.menuBody {
+  column-gap: 2rem;
+}
+
+.menuBox figure img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.menuBlockOne {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.menuBoxOne h2 {
+  color: #212529;
+  font-family: var(--ffSecondary);
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.menuBoxOne p {
+  color: #212529;
+  font-family: var(--ffPrimary);
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: 2rem 0rem;
+}
+
+/* Our Menu code */
+
+/* Facility code */
+/* .facilityBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+.facilityBox figure img {
+  width: auto;
+  height: 4rem;
+}
+
+.facilityBox h2 {
+  font-family: var(--ffSecondary);
+  color: #212529;
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+
+.facilityBoxOne h3 {
+  color: #212529;
+  font-family: var(--ffPrimary);
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.facilityBoxOne p {
+  color: #212529;
+  font-family: var(--ffPrimary);
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.facilityBoxOne figure img {
+  width: auto;
+  height: 9.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Facility code */
+
+/* Popular code */
+.popularContainer {
+  max-width: 950px;
+  margin: auto;
+}
+
+/* 
+.popularBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+} */
+
+.popularBox figure img {
+  width: auto;
+  height: 4rem;
+}
+
+.popularBox h2 {
+  color: #212529;
+  font-family: var(--ffSecondary);
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+
+.popularBodyOne {
+  gap: 3rem;
+}
+
+.popularBoxOne {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.popularBoxOne p {
+  color: #212529;
+  font-family: var(--ffPrimary);
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.popularBoxOne figure img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+/* Popular code */
+
+/* Gallery code */
+/* .galleryBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+} */
+
+.galleryBox figure img {
+  width: auto;
+  height: 4rem;
+}
+
+.galleryBox h2 {
+  font-family: var(--ffSecondary);
+  color: #212529;
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+
+.galleryBodyOne {
+  gap: 3rem;
+}
+
+.galleryBoxOne figure img {
+  width: 100%;
+  aspect-ratio: 4/3;
+}
+
+/* Gallery code */
+
+/* Team code */
+.teamContainer {
+  max-width: 950px;
+  margin: auto;
+}
+
+/* .teamBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+} */
+
+.teamBox figure img {
+  width: auto;
+  height: 4rem;
+}
+
+.teamBox h2 {
+  color: #212529;
+  font-family: var(--ffSecondary);
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.teamBodyOne {
+  gap: 3rem;
+}
+
+.teamBoxOne {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.teamBoxOne figure img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.teamBoxOne p {
+  color: #212529;
+  font-family: var(--ffPrimary);
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+/* Team code */
+/* :::MAIN Code Ends here::: */
+
+/* :::FOOTER Code Starts here::: */
+/* Contact code */
+.contactContainer {
+  max-width: 1250px;
+  margin: auto;
+}
+
+/* .contactBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+} */
+
+.contactBox figure img {
+  width: auto;
+  height: 4rem;
+}
+
+.contactBox h2 {
+  color: #212529;
+  font-family: var(--ffSecondary);
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.contactBoxOne figure img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.contactBoxTwo {
+  width: 100%;
+  margin: auto;
+  border: 1px solid #212529;
+  padding: 1rem 3rem 3rem 3rem;
+  margin: 0rem 2rem;
+  margin-right: 7.5rem;
+  text-align: center;
+  /* margin-bottom: 2.5rem; */
+}
+
+.contactBoxTwo h3 {
+  font-family: var(--ffPrimary);
+  color: #212529;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+.contactBoxTwo input {
+  height: 5.5rem;
+  width: 100%;
+  border: 1px solid #212529;
+  padding: 2rem;
+  font-family: var(--ffPrimary);
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin: 0.5rem 0rem;
+}
+
+/* Contact code */
+
+/* Contact Icons code */
+.contactIconsBody{
+    margin: 4rem 0rem;
+  }
+.contactIconsBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* margin: 4rem 0rem; */
+  /* background-color: #86b3e0   ; */
+}
+
+
+.contactIconsBox i {
+  background-color: #be9c79;
+  color: white;
+  font-size: 4rem;
+  width: 6.5rem;
+  height: 6.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-bottom: 3rem;
+}
+
+.contactIconsBox p {
+  color: #212529;
+  font-family: var(--ffPrimary);
+  font-size: 2rem;
+  font-weight: 400;
+
+}
+
+.contactIconsBox h4 {
+  color: #212529;
+  font-family: var(--ffPrimary);
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.contactIconsBoxFour p {
+  color: #212529;
+  text-align: center;
+  font-family: var(--ffPrimary);
+  font-size: 2rem;
+  font-weight: 400;
+  border-top: 2px solid;
+  padding-top: 2rem;
+}
+
+span {
+  color: var(--primaryColor);
+}
+
+/* Contact Icons code */
+/* :::FOOTER Code Ends here::: */
+
+/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
+
+/* for Responsive Target the ROW Code (display:grid) */
+
+/* Small devices (landscape phones, upto 576px and below) */
+/* @media (width <=576px) */
+@media (max-width: 576px) {
+
+  .grid-1,
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: 1fr;
+    /* padding: 0rem 1.5rem; */
+    
+  }
+
+  .hamburgerIcon{
+    display: block;
+    position: absolute;
+    top: 3rem;
+    right: 7rem;
+  }
+  .navBoxOne ul {
+  display: none;
+  flex-direction: column;
+  padding-top: 5rem;
+  padding-left: 10rem;
+}
+#iconToggle:checked~.links{
+  display: flex;
+}
+
+  .heroSectionBox h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .heroSectionBox p {
+    font-size: 1.6rem;
+  }
+  .heroSectionBox {
+    padding: 4rem 2rem;
+    margin-bottom: 4rem;
+  }
+  .menuContainer{
+    padding: 0rem 1.5rem;
+  }
+  .menuBoxOne p{
+    font-size: 1.6rem;
+  }
+  .facilityBody{
+    padding: 0rem 1.5rem;
+  }
+  .facilityBodyOne{
+    padding: 0rem 1.5rem;
+  }
+  .popularBody{
+    padding: 0rem 1.5rem;
+  }
+  .popularBodyOne{
+    padding: 0rem 1.5rem;
+  }
+  .galleryBody{
+    padding: 0rem 1.5rem;
+  }
+  .galleryBodyOne{
+    padding: 0rem 1.5rem;
+  }
+  .teamBody{
+   padding: 0rem 1.5rem;
+  }
+  .teamBodyOne{
+    padding: 0rem 8.5rem;
+  }
+  .contactBody{
+    padding: 0rem 1.5rem;
+  }
+  .contactBodyOne{
+    padding: 0rem 1.5rem;
+  }
+  .contactBoxTwo {
+  width: 100%;
+  margin: auto;
+  border: 1px solid #212529;
+  padding: 1rem 3rem 3rem 3rem;
+  /* margin: 0rem 2rem; */
+  /* margin-right: 8rem; */
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+  .contactIconsBody{
+    padding: 0rem 1.5rem;
+  }
+  .contactIconsBody{
+    margin: 2rem 0rem;
+  }
+  .contactIconsBodyOne{
+    padding: 0rem 1.5rem;
+  }
+  .contactIconsBox{
+    margin-bottom: 2rem;
+  }
+}
+
+/* Medium devices (tablets, upto 768px and above) */
+/* @media (width >=577px) and (width <=768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  /* write code here */
+}
+
+/* Large devices (Laptops, upto 992px and above) */
+/* @media (width >=769px) and (width <=992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+  /* write code here */
+}
+
+/* X-Large devices (large desktops, upto 1200px and above) */
+/* @media (width >=993px) and (width <=1200px) */
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* write code here */
+}
+
+/* XX-Large devices (larger desktops, upto 1400px and above) */
+/* @media (width >=1200px) */
+@media (min-width: 1201px) {
+  /* write code here */
+}

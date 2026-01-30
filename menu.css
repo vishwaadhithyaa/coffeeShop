@@ -1,0 +1,90 @@
+/*2.component  */
+/* .menu {
+    padding: 3rem 0rem;
+    
+} */
+
+/* 3.component container */
+/* .menuContainer {
+    background-color: blanchedalmond;
+    max-width: 1200px;
+    margin: auto;
+} */
+
+/* 4.row */
+/* .menuBody {
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+} */
+
+ /*5.column
+.menuBlock {
+    background-color: cadetblue;
+} */
+
+/* 6.subcolumn */
+/* .menuBox {
+    background-color: brown;
+
+} */
+
+/* 7.contentcontainer */
+/* .menuBox figure {
+    background-color: cadetblue; 
+    width: 690px;
+    height: 690px;
+} */
+
+/* .menuBox figure img {
+    width: 100%;
+    aspect-ratio: 1/1;
+}   */
+
+/* 5.column */
+/* .menuBlockOne {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+} */
+
+/* 6.subcolumn */
+/* .menuBoxOne {
+    background-color: coral;
+} */
+
+/* 7.contentcontainer */
+/* .menuBoxOne h2 {
+    
+    color: #212529;
+    font-family: var(--ffSecondary);
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1;
+} */
+
+/* .menuBoxOne p {
+    
+    color: #212529;
+    font-family: var(--ffPrimary);
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 2rem 0rem;
+
+} */
+
+/* .menuBoxOne button {
+    background-color: var(--primaryColor);
+    padding: 1rem 3rem;
+    color: var(--lightColor);
+    font-family: var(--ffPrimary);
+    font-size: 2rem;
+    font-weight: 400;
+    border: none;
+}
+button:hover {
+  background-color: #212529;
+  cursor: pointer;
+  transition: 0.3s ease;
+} */

@@ -1,0 +1,135 @@
+/* 2.component */
+/* .contact {
+    background-color: blanchedalmond;
+} */
+
+/* 3.component container */
+/* .contactContainer {
+    max-width: 1250px;
+    margin: auto;
+} */
+
+/* 4.row */
+/* .contactBody {
+    background-color: coral;
+
+} */
+
+/* 5.column */
+/* .contactBlock {
+    background-color: chartreuse;
+} */
+
+/* 6.subcolumn */
+/* .contactBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+/* 7.content container */
+/* .contactBox figure {
+    background-color: brown;
+} */
+
+/* .contactBox figure img {
+    width: auto;
+    height: 4rem ;
+} */
+
+/* .contactBox h2 {
+    color: #212529;
+    font-family: var(--ffSecondary);
+    font-size: 4rem;
+    font-weight: 800;
+} */
+
+/* 4.row */
+/* .contactBodyOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+
+/* 5.column */
+/* .contactBlockOne {
+    background-color: blueviolet;
+
+} */
+
+/* 6.subcolumn */
+/* .contactBoxOne {
+    background-color: rgb(160, 145, 14);
+
+} */
+
+/* 7.content container */
+/* .contactBoxOne figure {
+    background-color: aquamarine;
+
+} */
+
+/* .contactBoxOne figure img {
+    width: 100%;
+    aspect-ratio: 1/1;
+} */
+
+/* 5.column */
+/* .contactBlockTwo {
+    
+    display: flex;
+    align-items: center;
+    justify-content: start;     
+} */
+
+/* 6.subcolumn */
+
+/* .contactBoxTwo {
+    width: 100%;
+    margin: auto ;
+    border: 1px solid #212529;
+    padding: 1rem 3rem 3rem 3rem;
+    margin: 0rem 2rem; 
+    margin-right: 8rem;
+    text-align: center;
+} */
+
+/* 7.content container */
+/* .contactBoxTwo h3 {
+    font-family: var(--ffPrimary );
+    color: #212529;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 500;
+} */
+
+/* .contactBoxTwo form {
+    background-color: whitesmoke;
+} */
+
+/* .contactBoxTwo input {
+    height: 5.5rem;
+    width: 100%;
+    border: 1px solid #212529;
+    padding: 2rem;
+    font-family: var(--ffPrimary);
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 0.5rem 0rem;    
+} */
+
+/* .contactBoxTwo button {
+    background-color: var(--primaryColor);
+    padding: 1rem 3rem;
+    color: white;
+    font-family: var(--ffPrimary);
+    font-size: 2rem;
+    border: none;
+    margin: 1rem 0rem;
+    
+}
+button:hover {
+  background-color: #212529;
+  cursor: pointer;
+  transition: 0.3s ease;
+} */

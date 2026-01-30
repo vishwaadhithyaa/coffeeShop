@@ -1,0 +1,78 @@
+/*step-2 component*/
+/* .gallery {
+    background-color: cyan;
+} */
+
+/* step-3  component container*/
+/* .galleryContainer {
+
+    max-width: 1100px;
+    margin: auto;
+} */
+
+/* step-4 row */
+/* .galleryBody {
+    background-color: cornflowerblue;
+} */
+
+/* step-5 column */
+/* .galleryBlock {
+    background-color: darkcyan;
+} */
+
+/* step-6 subcolumn */
+/* .galleryBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+/* 7.contentContainer */
+/* .galleryBox figure {
+    
+} */
+
+/* .galleryBox figure img {
+    width: auto;
+    height: 4rem;
+} */
+
+/* .galleryBox h2 {
+    font-family: var(--ffSecondary);
+    color: #212529;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+} */
+
+/* 4.row */
+/* .galleryBodyOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+
+} */
+
+/* 5.column */
+/* .galleryBlockOne {
+    background-color: aqua;
+} */
+
+/* 6.subcolumn */
+/* .galleryBoxOne {
+    display: flex;
+    align-items: center;          
+    justify-content: center;
+} check this
+
+/* 7.content container */
+/* .galleryBoxOne figure {
+    
+} */
+
+
+/* .galleryBoxOne figure img {
+    width: 100%;
+    aspect-ratio: 4/3;
+} */

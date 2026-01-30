@@ -1,0 +1,85 @@
+/* 2.component */
+/* .popular {
+    padding: 3rem 0rem;
+
+} */
+
+/* 3.component container */
+/* .popularContainer {
+    max-width: 950px;
+    margin:auto;
+    
+} */
+
+/* 4.row */
+/* .popularBody {
+    background-color: rgb(223, 241, 27);
+} */
+
+/* 5.column */
+/* .popularBlock {
+    background-color: rgb(35, 230, 148);
+} */
+
+/* 6.subcolumn */
+/* .popularBox {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+} */
+
+/* 7.content container */
+/* .popularBox figure {
+    background-color: greenyellow; 
+}
+*/
+
+/* .popularBox figure img {    
+    width: auto;
+    height: 4rem;
+} */
+
+/* .popularBox h2 {
+    color: #212529;
+    font-family: var(--ffSecondary);
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+     */
+
+/* 4.row */
+/* .popularBodyOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+} */
+
+/* 5.column */
+/* .popularBlockOne {
+    background-color: blueviolet;
+
+} */
+
+/* 6.subcolumn */
+/* .popularBoxOne {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+} */
+/* .popularBoxOne p{
+    color: #212529;
+    font-family: var(--ffPrimary);
+    font-size: 2rem;
+    font-weight: 400;
+} */
+/* .popularBoxOne figure{
+    width: 300px;
+    height: 300px;
+}  */
+/* .popularBoxOne figure img{
+    width: 100%;
+    aspect-ratio: 1/1;
+}  */

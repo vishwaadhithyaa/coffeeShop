@@ -1,0 +1,91 @@
+/* 2.component */
+/* .team {
+    background-color: cornsilk;
+    padding: 3rem 0rem;
+} */
+
+/* 3.component container */
+/* .teamContainer {
+    width: 950px;
+    margin: auto;
+} */
+
+/* 4.row */
+/* .teamBody {
+    background-color: brown;
+} */
+
+/* 5.column */
+/* .teamBlock {
+    background-color: blueviolet;
+} */
+
+/* 6.subcolumn */
+/* .teamBox {
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+/* 7.content container */
+/* .teamBox figure {
+    background-color: wheat;
+} */
+
+/* .teamBox figure img {
+    width: auto;
+    height: 4rem;
+} */
+
+/* .teamBox h2 {
+    color: #212529;
+    font-family: var(--ffSecondary);
+    font-size: 4rem;
+    font-weight: 800;
+} */
+
+/* 4.row */
+/* .teamBodyOne {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+} */
+
+/* 5.column */
+/* .teamBlockOne {
+    background-color: cadetblue;
+} */
+
+/* 6.subcolumn */
+/* .teamBoxOne {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+/* 7.content container */
+/* .teamBoxOne figure {
+    background-color: blanchedalmond;
+}
+*/
+/* .teamBoxOne figure {
+    /* background-color: rgb(241, 162, 43); */
+    /* width: 300px;
+    height: 300px;
+} */ 
+
+/* .teamBoxOne figure img {
+    width: 100%;
+    aspect-ratio: 1/1;
+}            */
+
+/* .teamBoxOne p {
+    color: #212529;
+    font-family: var(--ffPrimary);
+    font-size: 2rem;
+    font-weight: 400;
+} */

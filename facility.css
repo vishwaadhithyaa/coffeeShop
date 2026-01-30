@@ -1,0 +1,88 @@
+/* Step2: component */
+/* .facility {
+    background-color: aqua;
+} */
+
+/* Step3: componentContainer */
+/* .facilityContainer {
+    
+    max-width: 1100px;
+    margin:auto;
+} */
+
+/* Step4: row */
+/* .facilityBody {
+    background-color: blueviolet;
+    
+} */
+
+/* Step5: column1 */
+/* .facilityBlock {
+    background-color: white;
+
+} */
+
+/* Step6: subColumn */
+/* .facilityBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+} */
+
+/* step7 content container */
+/* .facilityBox figure {
+    background-color: tomato;
+} */
+
+/* .facilityBox figure img {
+    width: auto;
+    height: 4rem;
+    
+} */
+
+/* .facilityBox h2 {
+    font-family: var(--ffSecondary);
+    color: #212529;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+} */
+
+/* 4.row */
+/* .facilityBodyOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+} */
+
+/* 5.column */
+/* .facilityBlockOne {
+    background-color: darkorange;
+} */
+
+/* 6.subcoulmn */
+/* .facilityBoxOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+} */
+/* .facilityBoxOne h3{
+    color: #212529;
+    font-family: var(--ffPrimary);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+.facilityBoxOne p{
+    color: #212529;
+    font-family: var(--ffPrimary);
+    font-weight: 400;
+    font-size: 1.6rem;
+} */
+/* .facilityBoxOne figure{
+    
+} */
+/*   */
