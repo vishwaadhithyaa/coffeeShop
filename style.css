@@ -243,6 +243,7 @@ button:hover {
   color: var(--darkColor);
   font-size: 2rem;
   font-weight: 400;
+
 }
 
 .navBoxOne ul li a:hover {
@@ -344,6 +345,10 @@ button:hover {
   justify-content: center;
   align-items: center;
 } */
+.facilityContainer {
+  max-width: 1150px;
+  margin: auto;
+}
 
 .facilityBox figure img {
   width: auto;
@@ -358,7 +363,11 @@ button:hover {
   margin-bottom: 2rem;
 }
 
-.facilityBoxOne h3 {
+.cardHeader figure img {
+  margin-bottom: 1.5rem;
+}
+
+.cardMain h3 {
   color: #212529;
   font-family: var(--ffPrimary);
   font-size: 2rem;
@@ -366,17 +375,11 @@ button:hover {
   margin-bottom: 0.5rem;
 }
 
-.facilityBoxOne p {
+.cardMain p {
   color: #212529;
   font-family: var(--ffPrimary);
   font-weight: 400;
   font-size: 1.6rem;
-}
-
-.facilityBoxOne figure img {
-  width: auto;
-  height: 9.5rem;
-  margin-bottom: 2rem;
 }
 
 /* Facility code */
@@ -665,28 +668,49 @@ span {
     display: block;
     position: absolute;
     top: 3rem;
-    right: 7rem;
     border: 0.1px solid;
     border-radius: 5px;
-    padding: 0.5rem 1.5rem;
+    padding: 0.7rem 1.4rem;
     font-size: 2.5rem;
     line-height: 1px;
     color: #00000080;
+    border-color: rgba(0, 0, 0, .1);
+  }
+
+  #iconToggle:checked~.links {
+    display: flex; 
+  }
+
+  .navBox figure img {
+    width: auto;
+    height: 4.9rem;
+    margin-left: 4rem;
+  }
+
+  .navBarBlock {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+  }
+  .navBarBlockOne{
+    margin-left:3rem;
+  }
+  .navBoxOne {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6rem;
   }
 
   .navBoxOne ul {
     display: none;
     flex-direction: column;
-    padding-top: 5rem;
-    padding-left: 8rem;
   }
 
   .navBoxOne ul li {
-    padding-bottom: 2rem;
-  }
-
-  #iconToggle:checked~.links {
-    display: flex;
+    padding: 1rem 0rem;
   }
 
   .heroSectionBox h1 {
@@ -782,24 +806,32 @@ span {
     display: block;
     position: absolute;
     top: 3rem;
-    right: 6rem;
     border: 0.1px solid;
     border-radius: 5px;
+    border-color: rgb(0, 0, 0, 0.1);
     padding: 0.5rem 1.5rem;
     font-size: 2.5rem;
     line-height: 1px;
     color: #00000080;
   }
 
+  .navBarBlock{
+    display: flex;
+    align-items: center;
+  }
+  .navBoxOne{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+  }
   .navBoxOne ul {
     display: none;
     flex-direction: column;
-    padding-top: 5rem;
-    padding-left: 12.5rem;
   }
 
   .navBoxOne ul li {
-    padding-bottom: 2rem;
+    padding: 1rem 0rem;
   }
 
   #iconToggle:checked~.links {
@@ -895,20 +927,33 @@ span {
     display: block;
     position: absolute;
     top: 3rem;
-    right: 7rem;
     border: 0.1px solid;
     border-radius: 5px;
+    border-color:   rgb(0, 0, 0, .1);
     padding: 0.5rem 1.5rem;
     font-size: 2.5rem;
     line-height: 1px;
     color: #00000080;
   }
-
+  /* .navBox figure img{
+    display: flex;
+    justify-content: center;
+  } */
+/* .navBarBox{
+  width: 100%;
+  display: flex;
+  align-items: center;
+} */
+.navBoxOne{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}
   .navBoxOne ul {
     display: none;
     flex-direction: column;
-    padding-top: 5rem;
-    padding-left: 17rem;
+    
   }
 
   #iconToggle:checked~.links {
@@ -916,11 +961,7 @@ span {
   }
 
   .navBoxOne ul li {
-    padding-bottom: 2rem;
-  }
-
-  .navBoxOne {
-    padding-right: 6rem;
+    padding:1rem 0rem;
   }
 
   .heroSectionBox {
@@ -1066,9 +1107,10 @@ span {
     padding: 0rem 3rem;
   }
 
-  .teamBody{
+  .teamBody {
     padding: 0rem 1.5rem;
   }
+
   .teamBodyOne {
     padding: 0rem 8rem;
   }
